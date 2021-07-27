@@ -1,27 +1,57 @@
 import React from 'react';
-
-// import '../styles/Navbar.css';
-
 const styles = {
-  styleA: {
-
-    color: "white",
-
-
-  },
-  styleNbar: {
-    background: "green",
-    textAlign: "right",
+  navbar: {
+    paddingTop: "20px",
   }
 }
 
-function Navbar() {
-
+function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar" style={styles.styleNbar}>
-      <a style={styles.styleA} href="/">Welcome</a>
+    <nav style={styles.navbar}>
+      <ul className="nav nav-tabs float-end">
+        <li className="nav-item me-3">
+          <a
+            href="#home"
+            onClick={() => handlePageChange('Home')}
+
+            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          >
+            Home
+          </a>
+        </li>
+        <li className="nav-item  me-3">
+          <a
+            href="#about"
+            onClick={() => handlePageChange('About')}
+
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          >
+            About
+          </a>
+        </li>
+        <li className="nav-item  me-3">
+          <a
+            href="#blog"
+            onClick={() => handlePageChange('Blog')}
+
+            className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          >
+            Blog
+          </a>
+        </li>
+        <li className="nav-item  me-3">
+          <a
+            href="#contact"
+
+            onClick={() => handlePageChange('Contact')}
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
     </nav>
   );
 }
 
-export default Navbar;
+export default NavTabs;

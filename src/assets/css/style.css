@@ -1,0 +1,27 @@
+/* Using universal seletctor */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* set the padding and background color of the body */
+header {
+  border-bottom: solid 5px rgba(29, 38, 113, 0.9);
+  overflow: hidden;
+  background: linear-gradient(
+    rgba(29, 38, 113, 0.9),
+    rgba(235, 134, 166, 0.9)
+  ); /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(
+      rgba(29, 38, 113, 0.9),
+      rgba(235, 134, 166, 0.9)
+    ),
+    url("../images/bgimage.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.9), rgba(235, 134, 166, 0.9)),
+    url("../images/bgimage.jpg");
+  height: 100vh;
+  background-size: auto;
+}
