@@ -9,7 +9,7 @@
 
 /* set the padding and background color of the body */
 header {
-  border-bottom: solid 5px rgba(29, 38, 113, 0.9);
+  /* border-bottom: solid 5px rgba(29, 38, 113, 0.9); */
   overflow: hidden;
   background: linear-gradient(
     rgba(29, 38, 113, 0.9),
@@ -22,6 +22,6 @@ header {
     url("../images/bgimage.jpg");
   background: linear-gradient(rgba(29, 38, 113, 0.9), rgba(235, 134, 166, 0.9)),
     url("../images/bgimage.jpg");
-  height: 100vh;
+
   background-size: auto;
 }

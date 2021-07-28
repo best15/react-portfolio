@@ -1,8 +1,10 @@
 import React, { Fragment, useState } from 'react';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 import Home from './pages/Home';
+
 // import About from './pages/About';
 // import Projects from './pages/Projects';
 // import Contact from './pages/Contact';
@@ -38,6 +40,7 @@ export default function PortfolioContainer() {
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
 
             {renderPage()}
+            <Footer />
         </Fragment>
     );
 }
