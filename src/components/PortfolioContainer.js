@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react';
-import Navbar from './Navbar';
+
+import Header from './Header';
 import Footer from './Footer';
 
 
@@ -37,7 +38,7 @@ export default function PortfolioContainer() {
         <Fragment >
 
             {/* currentPage(default set to Home) and function handlePageChange is passed as props */}
-            <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
 
             {renderPage()}
             <Footer />

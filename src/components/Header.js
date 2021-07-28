@@ -1,23 +1,12 @@
 import React from 'react';
 
+import Navbar from './Navbar';
 
-const styles = {
-  heading: {
-    // background: "red",
-  },
-
-  h1style: {
-
-    color: "black",
-  },
-
-};
-
-function Header() {
+function Header({ currentPage, handlePageChange }) {
 
   return (
-    <header className="header" style={styles.heading}>
-      <h1 style={styles.h1style}>Header</h1>
+    <header>
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
   );
 }

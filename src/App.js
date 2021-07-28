@@ -6,9 +6,9 @@ import './assets/css/style.css';
 
 function App() {
   return (
-    <header>
+    <Fragment>
       <PortfolioContainer />
-    </header>
+    </Fragment>
   );
 }
 
