@@ -1,31 +1,55 @@
 import React from 'react';
+import Project from "../Project";
 import techBlogImage from "../../assets/images/tech-blog-dashboard.jpg"
-import "../../assets/css/Portfolio.css"
+import iCanHelpImage from "../../assets/images/i-can-help.jpg"
+import weatherForecastImage from "../../assets/images/weather-forecast.jpg"
+import dayPlanerImage from "../../assets/images/day-planner.jpg"
+import codequizImage from "../../assets/images/codequiz.jpg"
 
-function Section() {
+
+function Portfolio() {
+
+    const projectValues = [
+        {
+            deployLink: 'https://dudley-mountie-64122.herokuapp.com/',
+            projectImage: techBlogImage
+        },
+        {
+            deployLink: 'https://dudley-mountie-64122.herokuapp.com/',
+            projectImage: iCanHelpImage
+        },
+        {
+            deployLink: 'https://dudley-mountie-64122.herokuapp.com/',
+            projectImage: weatherForecastImage
+        },
+        {
+            deployLink: 'https://dudley-mountie-64122.herokuapp.com/',
+            projectImage: codequizImage
+        },
+        {
+            deployLink: 'https://dudley-mountie-64122.herokuapp.com/',
+            projectImage: dayPlanerImage
+        },
+    ]
+
+    const projectMap = projectValues.map(el => <Project deployLink={el.deployLink} projectImage={el.projectImage} />)
+
+
 
     return (
-        <section className="projects">
-            <div className="row">
-                <div className="card col-sm-12 col-md-4 col-lg-2">
-                    <div >
-                        <a href=" https://dudley-mountie-64122.herokuapp.com/" target="_blank">
-                            <img id="work1screenshot"
-                                src={techBlogImage} alt="tech blog application " className="imageContainer" />
-                        </a>
-                    </div>
-                </div>
-                <div className="card col-sm-12 col-md-4 col-lg-2">
-                    <div >
-                        <a href=" https://dudley-mountie-64122.herokuapp.com/" target="_blank">
-                            <img id="work1screenshot"
-                                src={techBlogImage} alt="tech blog application " className="imageContainer" />
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <section  >
+
+            <article id="MyWorkContainer">
+
+                <h1>My Projects </h1>
+
+                <section className="projects row">
+                    {projectMap}
+                </section>
+            </article>
         </section>
+
     );
 }
 
-export default Section;
+export default Portfolio;

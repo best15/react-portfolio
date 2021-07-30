@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 
-function Section() {
+function Project({ deploylink, projectImage }) {
 
   return (
-    <section className="row">
-      <div className="card col-sm-12 col-md-4 col-lg-2">
+    <Fragment>
+      <div className=" col-sm-12 col-md-6 col-lg-5 mb-3  ">
+
+        <a href={deploylink} target="_blank">
+          <img id="img" src={projectImage} alt="Fullstack I CAN HELP application " />
+
+        </a>
 
       </div>
-
-    </section>
+    </Fragment>
   );
 }
 
-export default Section;
+export default Project;

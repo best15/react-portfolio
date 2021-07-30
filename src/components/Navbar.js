@@ -42,7 +42,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
             className={currentPage === 'Portfolio' ? 'nav-link active text-info' : 'nav-link'}
           >
-            Portfolio
+            Projects
           </a>
         </li>
         <li className="me-3">
