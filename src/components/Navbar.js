@@ -37,10 +37,10 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
         <li className="me-3">
           <a style={styles.anchor}
-            href="#blog"
-            onClick={() => handlePageChange('Blog')}
+            href="#portfolio"
+            onClick={() => handlePageChange('Portfolio')}
 
-            className={currentPage === 'Blog' ? 'nav-link active text-info' : 'nav-link'}
+            className={currentPage === 'Portfolio' ? 'nav-link active text-info' : 'nav-link'}
           >
             Portfolio
           </a>
