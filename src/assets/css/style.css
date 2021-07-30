@@ -148,35 +148,56 @@ nav a {
 }
 
 #MyWorkContainer h1 {
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   font-family: "Shippori Mincho", serif;
   margin-bottom: 3%;
   border-bottom: double 5px white;
 }
-
+.title {
+  /* position: absolute; */
+  bottom: 2px;
+  color: white;
+  padding: 5px;
+  width: fit-content;
+  font-family: "Dancing Script", cursive;
+}
 .projects {
   align-items: center;
   justify-content: center;
+  font-size: 50px;
 }
 
-.projectContainer:hover .projectOverlay {
-  opacity: 0.7;
-}
-.projectOverlay {
-  background-color: gray;
-  bottom: 0;
-  /* height: 100%; */
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: 0.5s ease;
-  /* width: 100%; */
+  opacity: 0;
+  position: relative;
+  bottom: 150px;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover {
+  color: black;
+}
+.title:hover {
+  color: black;
+}
+
+.projectContainer:hover #img {
+  opacity: 0.3;
+}
+.projectContainer:hover .links {
+  opacity: 1;
 }
 /* sets the height,width and border of all the other work images except work one */
 #img {
+  opacity: 1;
   width: 90%;
   height: 200px;
   border-radius: 20px;
