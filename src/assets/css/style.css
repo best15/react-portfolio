@@ -204,16 +204,24 @@ nav a {
   box-shadow: 2px 2px 2px white;
 }
 
-#ContactMe {
+.contactForm {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-left: 50px;
   margin-top: 100px;
   align-items: center;
   justify-content: center;
+  font-family: sans-serif;
 }
-
-#ContactMe h1 {
+.contactForm form {
+  width: 30%;
+  font-family: sans-serif, Arial, Helvetica;
+  font-size: x-large;
+  font-weight: bolder;
+  color: white;
+}
+.contactForm h1 {
   font-size: 50px;
   color: rgba(29, 38, 113, 0.9);
   font-family: "Shippori Mincho", serif;
