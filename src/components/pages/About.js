@@ -1,5 +1,5 @@
 import PersonalPic from "../../assets/images/personalpic.jpg"
-import "../../assets/css/About.css"
+
 
 export default function About() {
     return (
@@ -8,8 +8,8 @@ export default function About() {
 
                 <h1>About Me</h1>
 
-                <div class="aboutme-card">
-                    <figure class="personalpic">
+                <div className="aboutme-card">
+                    <figure className="personalpic">
                         <img src={PersonalPic} alt="personal pic" />
                     </figure>
                     <p>

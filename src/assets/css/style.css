@@ -217,7 +217,7 @@ nav a {
 .contactForm form {
   width: 30%;
   font-family: sans-serif, Arial, Helvetica;
-  font-size: x-large;
+  font-size: large;
   font-weight: bolder;
   color: white;
 }
@@ -258,7 +258,14 @@ nav a {
   transition: ease-in-out 0.6s;
   filter: saturate(3);
 }
-
+.error-text {
+  font-size: x-large;
+  color: whitesmoke;
+}
+.success-text {
+  font-size: x-large;
+  color: whitesmoke;
+}
 /* sets the footer of the page */
 footer {
   margin-top: 15px;
