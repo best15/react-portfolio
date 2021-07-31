@@ -9,7 +9,7 @@ function Project({ deployLink, projectImage, title }) {
     <Fragment>
       <div className=" col-sm-12 col-md-6 col-lg-5 mb-3  projectContainer">
 
-        <img id="img" src={projectImage} alt="Fullstack I CAN HELP application " />
+        <img id="img" src={projectImage} alt="Application screenshot" />
 
         <div className="links">
           <a href={deployLink} target="_blank">

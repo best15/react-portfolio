@@ -10,7 +10,8 @@ const styles = {
         justifyContent: "center",
         alignItems: "center",
         color: "white",
-        fontSize: "50px",
+        textAlign: "center",
+
 
     },
 
@@ -19,6 +20,7 @@ const styles = {
 export default function Home() {
     return (
         <section style={styles.wrap} >
+
             <h1>Sarad Budhathoki Chhetri</h1>
             <h2>Software developer / Full-stack web developer, Perth based.</h2>
 

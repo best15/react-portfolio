@@ -37,28 +37,19 @@
   background-size: auto;
 }
 
-header h1 {
-  text-align: center;
-  color: white;
-  font-size: 50px;
-}
-
-/* css for the title header */
-header h2 {
-  justify-content: center;
-  text-align: center;
-  color: white;
-  padding: 10px;
-  margin-top: 19px;
-  width: 50%;
+header {
+  width: 100%;
+  height: 20%;
 }
 
 /* Sets navigation bar at the header with padding,margin,font-size and float to right */
 nav {
   /* width: fit-content; */
+  /* padding: .5rem 1rem; */
+  display: flex;
+  float: right;
   padding-top: 20px;
   margin-right: 20px;
-  float: right;
   position: sticky;
   top: 0;
 }
@@ -66,7 +57,7 @@ nav {
 /* Sets the link items in the list as inline-block to align them horizontally provided with some margin , padding and border */
 nav ul li {
   display: inline-block;
-  margin-right: 25px;
+  /* margin-right: 25px; */
   padding: 5px;
 }
 
@@ -75,16 +66,9 @@ nav a {
   font-size: 30px;
   color: white;
   text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
-#wrap {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .personalpic {
   width: 40%;
 }
@@ -301,6 +285,15 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+  nav ul li {
+    display: flex;
+  }
+
+  nav {
+    float: none;
+    justify-content: center;
+  }
+
   .personalpic {
     width: 60%;
   }
@@ -315,27 +308,6 @@ footer {
     font-size: 15px;
     color: white;
     margin: 10px;
-  }
-
-  #work1screenshot {
-    height: 200px;
-  }
-
-  #work2 {
-    width: 100%;
-  }
-  #work3 {
-    width: 100%;
-    margin-left: 0;
-    margin-bottom: 0;
-  }
-  #work4 {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  #work5 {
-    width: 100%;
-    margin-left: 0;
   }
 
   .contactlinks ul li {

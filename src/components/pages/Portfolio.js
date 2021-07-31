@@ -50,7 +50,7 @@ function Portfolio() {
     ]
 
     const projectMap = projectValues.map(el =>
-        <Project deployLink={el.deployLink} projectImage={el.projectImage} title={el.title} />
+        <Project key={el.title} deployLink={el.deployLink} projectImage={el.projectImage} title={el.title} />
     );
 
 
