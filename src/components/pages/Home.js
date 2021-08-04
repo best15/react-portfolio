@@ -22,7 +22,8 @@ export default function Home() {
         <section style={styles.wrap} >
 
             <h1>Sarad Budhathoki Chhetri</h1>
-            <h2>Software developer / Full-stack web developer, Perth based.</h2>
+            <h3>Software / Full-stack web developer</h3>
+            <h3>Perth based</h3>
 
         </section>
     );

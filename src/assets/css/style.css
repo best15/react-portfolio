@@ -33,7 +33,7 @@
     url("../images/bgimage.jpg"); */
   /* background: linear-gradient(rgba(29, 38, 113, 0.9), rgba(235, 134, 166, 0.9)),
     url("../images/bgimage.jpg"); */
-  /* height: 100vh; */
+  height: 100%;
   background-size: auto;
 }
 
@@ -86,6 +86,7 @@ nav a {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  height: 80vh;
 }
 
 .aboutme-card {
@@ -197,6 +198,7 @@ nav a {
   align-items: center;
   justify-content: center;
   font-family: sans-serif;
+  height: 100vh;
 }
 .contactForm form {
   width: 30%;

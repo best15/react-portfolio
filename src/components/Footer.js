@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-
+import resume from "../assets/doc/Sarad_Resume.pdf"
 
 export default function Footer() {
     return (
@@ -22,7 +22,7 @@ export default function Footer() {
                     </li>
 
                     <li>
-                        <a href="../assets/doc/sarad-resume.pdf" target="_blank">Resume</a>
+                        <a href={resume} target="_blank">Resume</a>
                     </li>
                 </ul>
             </section>
