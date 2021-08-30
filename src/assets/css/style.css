@@ -13,11 +13,6 @@
   --titleunderlines: rgba(235, 134, 166, 0.9);
 }
 
-/* sets the background color of whole page */
-/* body {
-  background: rgb(239, 241, 243, 0.95);
-} */
-
 /* set the padding and background color of the header */
 #root {
   border-bottom: solid 5px rgba(29, 38, 113, 0.9);
@@ -26,13 +21,13 @@
     rgba(29, 38, 113, 0.9),
     rgba(235, 134, 166, 0.9)
   ); /* fallback colour. Make sure this is just one solid colour. */
-  /* background: -webkit-linear-gradient(
+  background: -webkit-linear-gradient(
       rgba(29, 38, 113, 0.9),
       rgba(235, 134, 166, 0.9)
     ),
-    url("../images/bgimage.jpg"); */
-  /* background: linear-gradient(rgba(29, 38, 113, 0.9), rgba(235, 134, 166, 0.9)),
-    url("../images/bgimage.jpg"); */
+    url("../images/bgimage.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.9), rgba(235, 134, 166, 0.9)),
+    url("../images/bgimage.jpg");
   height: 100%;
   background-size: auto;
 }
@@ -44,8 +39,6 @@ header {
 
 /* Sets navigation bar at the header with padding,margin,font-size and float to right */
 nav {
-  /* width: fit-content; */
-  /* padding: .5rem 1rem; */
   display: flex;
   float: right;
   padding-top: 20px;

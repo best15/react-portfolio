@@ -12,17 +12,17 @@ export default function Footer() {
 
 
                     <li>
-                        <a href="https://github.com/best15" target="_blank">
+                        <a href="https://github.com/best15" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/sarad-budhathoki-chhetri-8b23b996/" target="_blank"><FontAwesomeIcon icon={faLinkedin} />
+                        <a href="https://www.linkedin.com/in/sarad-budhathoki-chhetri-8b23b996/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} />
                         </a>
                     </li>
 
                     <li>
-                        <a href={resume} target="_blank">Resume</a>
+                        <a href={resume} target="_blank" rel="noreferrer">Resume</a>
                     </li>
                 </ul>
             </section>

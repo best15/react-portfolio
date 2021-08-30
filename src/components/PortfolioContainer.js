@@ -10,10 +10,6 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 
 
-const styles = {
-
-}
-
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
 

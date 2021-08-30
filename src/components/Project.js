@@ -12,10 +12,10 @@ function Project({ deployLink, projectImage, title }) {
         <img id="img" src={projectImage} alt="Application screenshot" />
 
         <div className="links">
-          <a href={deployLink} target="_blank">
+          <a href={deployLink} target="_blank" rel="noreferrer">
             <h2 className="title">{title}</h2>
           </a>
-          <a href={deployLink} target="_blank"><FontAwesomeIcon icon={faGithub} /> </a>
+          <a href={deployLink} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> </a>
         </div>
 
       </div>
