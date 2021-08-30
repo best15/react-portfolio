@@ -35,7 +35,7 @@ function Contact() {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
 
-        if (userName == "" || message == "") {
+        if (userName === "" || message === "") {
 
             setErrorMessage('Username/Message field are required');
         } else if (!validateEmail(email)) {
