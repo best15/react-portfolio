@@ -29,7 +29,7 @@
   background: linear-gradient(rgba(29, 38, 113, 0.9), rgba(235, 134, 166, 0.9)),
     url("../images/bgimage.jpg");
   height: 100%;
-  background-size: auto;
+  background-size: cover;
 }
 
 header {
