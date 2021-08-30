@@ -6,11 +6,25 @@ import weatherForecastImage from "../../assets/images/weather-forecast.jpg"
 import dayPlanerImage from "../../assets/images/day-planner.jpg"
 import codequizImage from "../../assets/images/codequiz.jpg"
 import workoutTrackerImage from "../../assets/images/workout-tracker.jpg"
+import smartRecycleImage from "../../assets/images/smartRecycle-home.jpg"
+import bookSearchImage from "../../assets/images/bookSearch.jpg"
 
 
 function Portfolio() {
 
     const projectValues = [
+        {
+            deployLink: 'https://evening-brook-25132.herokuapp.com/',
+            projectImage: smartRecycleImage,
+            title: "Smart Recycle",
+            repoLink: "https://github.com/best15/smart-recycle"
+        },
+        {
+            deployLink: 'https://book-search-engine-290821.herokuapp.com/',
+            projectImage: bookSearchImage,
+            title: "Book Search Engine",
+            repoLink: "https://github.com/best15/book-search-engine"
+        },
         {
             deployLink: 'https://dudley-mountie-64122.herokuapp.com/',
             projectImage: techBlogImage,
