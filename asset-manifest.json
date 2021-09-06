@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.9554425c.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.041aa36b.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.041aa36b.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.bc600342.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.bc600342.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
     "static/css/2.4be38407.chunk.css": "/react-portfolio/static/css/2.4be38407.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.4be38407.chunk.css.map": "/react-portfolio/static/css/2.4be38407.chunk.css.map",
     "static/css/main.9554425c.chunk.css.map": "/react-portfolio/static/css/main.9554425c.chunk.css.map",
     "static/js/2.6d65f390.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.6d65f390.chunk.js.LICENSE.txt",
-    "static/media/Sarad_Resume.272e9647.pdf": "/react-portfolio/static/media/Sarad_Resume.272e9647.pdf",
+    "static/media/SARAD-Resume.89e36abb.pdf": "/react-portfolio/static/media/SARAD-Resume.89e36abb.pdf",
     "static/media/style.css": "/react-portfolio/static/media/bgimage.510de436.jpg",
     "static/media/bookSearch.f837d937.jpg": "/react-portfolio/static/media/bookSearch.f837d937.jpg",
     "static/media/codequiz.9b98fb4a.jpg": "/react-portfolio/static/media/codequiz.9b98fb4a.jpg",
@@ -29,6 +29,6 @@
     "static/css/2.4be38407.chunk.css",
     "static/js/2.6d65f390.chunk.js",
     "static/css/main.9554425c.chunk.css",
-    "static/js/main.041aa36b.chunk.js"
+    "static/js/main.bc600342.chunk.js"
   ]
 }
