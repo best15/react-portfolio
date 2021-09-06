@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import resume from "../assets/doc/Sarad_Resume.pdf"
+import resume from "../assets/doc/SARAD-Resume.pdf"
 
 export default function Footer() {
     return (
