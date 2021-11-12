@@ -13,7 +13,7 @@ export default function About() {
                         <img src={PersonalPic} alt="personal pic" />
                     </figure>
                     <p>
-                        Hi, I am Sarad and I am currently studying Full-Stack Web Development at UWA to become a Web Developer.
+                        Hi, I am Sarad. I am certified Full-Stack Web Develoiper from UWA.
                         I have some past experience as a software developer and have a bachelor degree in computer engineering.
 
                     </p>
